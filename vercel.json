@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    { "source": "/api/auth", "destination": "/api/game?action=auth" },
+    { "source": "/api/bonus", "destination": "/api/game?action=bonus" },
+    { "source": "/api/roll", "destination": "/api/game?action=roll" },
+    { "source": "/api/bot", "destination": "/api/bot" }
+  ]
+}
